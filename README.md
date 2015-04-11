@@ -1,2 +1,1 @@
-# Neural-Netwrok-Package
-a C# implementation for ANN
+A package that contains multiple number of Artificial Neural Network types, supported with many learning algorithms to train the network. 
