@@ -1,0 +1,5 @@
+/home/mahmoud_hatem/Desktop/MonoProjects/NeuralNetworkPackage/NeuralNetworkPackage/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/mahmoud_hatem/Desktop/MonoProjects/NeuralNetworkPackage/NeuralNetworkPackage/bin/Debug/NeuralNetworkPackage.exe.mdb
+/home/mahmoud_hatem/Desktop/MonoProjects/NeuralNetworkPackage/NeuralNetworkPackage/bin/Debug/NeuralNetworkPackage.exe
+/home/mahmoud_hatem/Desktop/MonoProjects/NeuralNetworkPackage/NeuralNetworkPackage/obj/x86/Debug/NeuralNetworkPackage.exe
+/home/mahmoud_hatem/Desktop/MonoProjects/NeuralNetworkPackage/NeuralNetworkPackage/obj/x86/Debug/NeuralNetworkPackage.exe.mdb
