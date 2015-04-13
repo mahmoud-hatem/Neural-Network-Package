@@ -46,9 +46,9 @@ namespace NeuralNetworkPackage
         }
 
         /// <summary>
-        /// Create neurons and add them to specific layerIndex with the activation function of the layer.
+		/// Create neurons and add them to specific <paramref name="layerIndex"/> with the activation function of the layer.
         /// </summary>
-        /// <param name="layerIndex">Index of the layer the network [Base 1]</param>
+        /// <param name="layerIndex">Index of the layer in the network [starting from 1]</param>
         /// <param name="activationFunction">The activation function that will be used 
         /// in the output of each neuron in the layer.</param>
         public void setLayer(int layerIndex, mathFunction activationFunction)
@@ -66,12 +66,14 @@ namespace NeuralNetworkPackage
         /// <summary>
         /// Set neuron in layer given its index, the index of neuron, the weights and bias.
         /// </summary>
-        /// <param name="layerIndex">Index of the layer the network [Base 1]</param>
-        /// <param name="neuronIndex">Index of the layer the network [Base 0]</param>
+        /// <param name="layerIndex">Index of the layer the network [starting from 1]</param>
+        /// <param name="neuronIndex">Index of the layer the network [0 base]</param>
         /// <param name="weights">The weights of the neuron.</param>
         /// <param name="bias">The bias of the neuron.</param>
         public void setNeuron(int layerIndex, int neuronIndex, List<double> weights, double bias)
         {
+			if (layerIndex == 0)
+				throw new Exception("no neuron at Input Layer");
             if (weights.Count != this.numOfNeuronsPerLayer[layerIndex - 1])
                 throw new Exception("Invalid weights size");
 
@@ -79,7 +81,7 @@ namespace NeuralNetworkPackage
         }
 
         /// <summary>
-        /// Compute the output the network.
+        /// Compute the output of the network.
         /// </summary>
         /// <param name="input"> Network input [Features]</param>
         /// <returns>List of the output values after feedforward</returns>
@@ -108,7 +110,7 @@ namespace NeuralNetworkPackage
 
         /// <summary>
         /// Train the network given the training samples (features) and the labels (classes),
-        /// then using the chosen learning algorithm, the weights are updated
+        /// then using the chosen learning algorithm to update the weights.
         /// </summary>
         /// <param name="trainingSamples"> Training Samples Features</param>
         /// <param name="trainingLabels"> Training Labels (classes)</param>
