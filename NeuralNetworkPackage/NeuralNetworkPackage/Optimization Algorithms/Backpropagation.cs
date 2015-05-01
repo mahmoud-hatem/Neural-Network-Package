@@ -54,7 +54,7 @@ namespace NeuralNetworkPackage
                         }
                         else
                         {
-                            delta = learningRate * network[i][j].SignalError * network[i - 1][j].Output;
+                            delta = learningRate * network[i][j].SignalError * network[i - 1][k].Output;
                         }
                         currentWeights[k] += delta;
                     }
