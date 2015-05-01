@@ -7,7 +7,6 @@ namespace NeuralNetworkPackage
 	{
 		public static void Main (string[] args)
 		{
-
 		}
 	}
 }

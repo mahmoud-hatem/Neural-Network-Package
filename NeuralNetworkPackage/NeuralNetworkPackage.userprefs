@@ -1,13 +1,8 @@
 ﻿<Properties StartupItem="NeuralNetworkPackage/NeuralNetworkPackage.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NeuralNetworkPackage/Activation Functions/SigmoidFunction.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NeuralNetworkPackage/Optimization Algorithms/Backpropagation.cs">
     <Files>
-      <File FileName="NeuralNetworkPackage/Optimization Algorithms/Backpropagation.cs" Line="7" Column="7" />
-      <File FileName="NeuralNetworkPackage/Neural Network/FeedforwardNeuralNetwrok.cs" Line="1" Column="1" />
-      <File FileName="NeuralNetworkPackage/Optimization Algorithms/LearningAlgorithm.cs" Line="1" Column="1" />
-      <File FileName="NeuralNetworkPackage/Program.cs" Line="1" Column="1" />
-      <File FileName="NeuralNetworkPackage/Activation Functions/mathFunction.cs" Line="1" Column="1" />
-      <File FileName="NeuralNetworkPackage/Activation Functions/SigmoidFunction.cs" Line="35" Column="35" />
+      <File FileName="NeuralNetworkPackage/Optimization Algorithms/Backpropagation.cs" Line="57" Column="96" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
